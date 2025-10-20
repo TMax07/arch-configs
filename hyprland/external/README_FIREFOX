@@ -1,0 +1,4 @@
+To enable firefox hardware acceleration please see:
+https://github.com/elFarto/nvidia-vaapi-driver
+
+This configuration cannot happen automatically
