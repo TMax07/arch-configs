@@ -16,6 +16,14 @@ man-pages:::pacman:::
 man-db:::pacman:::
 texinfo:::pacman:::
 
+===SSSD
+sssd:::pacman:::/config/sssd/setup.sh
+
+===BTRFS Backups
+snapper:::pacman:::/config/snapper/setup.sh
+btrfs-assistant:::pacman:::
+snap-pac:::pacman:::
+
 ===Java
 jdk-openjdk:::pacman:::
 jdk17-openjdk:::pacman:::/config/java/setup.sh
@@ -71,6 +79,13 @@ xdg-desktop-portal-gtk:::pacman:::
 qt5-wayland:::pacman:::
 qt6-wayland:::pacman:::
 hyprpolkitagent:::pacman:::
+
+===Power Management
+auto-cpufreq:::yay:::/config/auto-cpufreq/setup.sh
+
+===AutoFS
+samba:::pacman:::
+autofs:::yay:::/config/autofs/setup.sh
 
 ===Userspace Utils
 wget:::pacman:::
