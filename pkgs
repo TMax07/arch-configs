@@ -6,7 +6,7 @@ libva-utils:::pacman:::
 linux-headers:::pacman:::
 nvidia-open-dkms:::pacman:::
 nvidia-utils:::pacman:::
-lib32-nvidia-utlis:::pacman:::
+lib32-nvidia-utils:::pacman:::
 egl-wayland:::pacman:::
 nvidia-settings:::pacman:::/config/nvidia/setup.sh
 nvtop:::pacman:::
@@ -18,12 +18,12 @@ texinfo:::pacman:::
 
 ===Java
 jdk-openjdk:::pacman:::
+jdk17-openjdk:::pacman:::/config/java/setup.sh
 
 ===Fonts
 noto-fonts:::pacman:::
 noto-fonts-cjk:::pacman:::
 noto-fonts-emoji:::pacman:::
-ttf-free-fonts:::pacman:::
 ttf-dejavu:::pacman:::
 ttf-liberation:::pacman:::
 ttf-hack:::pacman:::
@@ -32,13 +32,45 @@ ttf-roboto:::pacman:::
 ttf-roboto-mono:::pacman:::
 ttf-noto-nerd:::pacman:::
 woff2-font-awesome:::pacman:::
-wqy-mirohei:::pacman:::
+wqy-microhei:::pacman:::
 gnu-free-fonts:::pacman:::
 
 ===Python
 python:::pacman:::
 python-pip:::pacman:::
 python-pandas:::pacman:::
+
+===Bluetooth
+bluez:::pacman:::
+bluez-utils:::pacman:::
+
+===Audio
+sof-firmware:::pacman:::
+pipewire:::pacman:::
+pipewire-pulse:::pacman:::
+pipewire-jack:::pacman:::
+pipewire-audio:::pacman:::
+pipewire-alsa:::pacman:::
+wireplumber:::pacman:::
+lib32-pipewire:::pacman:::
+qpwgraph:::pacman:::
+
+===Hyprland
+xorg-xwayland:::pacman:::
+wayland-protocols:::pacman:::
+cmake:::pacman:::
+cpio:::pacman:::
+glaze:::pacman:::
+hyprland-protocols:::pacman:::
+meson:::pacman:::
+hyprland:::pacman:::
+kitty:::pacman:::/config/hyprland/setup.sh
+mako:::pacman:::/config/mako/setup.sh
+xdg-desktop-portal-hyprland:::pacman:::
+xdg-desktop-portal-gtk:::pacman:::
+qt5-wayland:::pacman:::
+qt6-wayland:::pacman:::
+hyprpolkitagent:::pacman:::
 
 ===Userspace Utils
 wget:::pacman:::
@@ -50,13 +82,13 @@ bat:::pacman:::
 bind:::pacman:::
 btop:::pacman:::
 cdrtools:::pacman:::
-cpuid:::pacman:::
+cpuid:::yay:::
 dosfstools:::pacman:::
 esptool:::pacman:::
 fd:::pacman:::
 fzf:::pacman:::
 gptfdisk:::pacman:::
-gpu-viewer:::pacman:::
+gpu-viewer:::yay:::
 htop:::pacman:::
 iotop:::pacman:::
 iptables-nft:::pacman:::
@@ -72,14 +104,22 @@ samba:::pacman:::
 traceroute:::pacman:::
 tree:::pacman:::
 
-===Bluetooth
-bluez:::pacman:::
-bluez-utils:::pacman:::
+===Generic Apps
+qt6-multimedia-ffmpeg:::pacman:::
+vlc:::pacman:::
+vlc-plugins-all:::pacman:::
+mpv:::pacman:::
+discord:::pacman:::
+firefox:::pacman:::
+freecad:::pacman:::
+gimp:::pacman:::
+inkscape:::pacman:::
+kate:::pacman:::
+obsidian-bin:::yay:::
+spotify-launcher:::pacman:::
 
-===Jetbrains
+===IDEs
 jetbrains-toolbox:::yay:::
-
-===VSCode
 visual-studio-code-bin:::yay:::
 
 ===C/C++
@@ -115,19 +155,6 @@ vulkan-extra-tools:::pacman:::
 vulkan-extra-layers:::pacman:::
 renderdoc-bin:::yay:::
 
-===Generic Apps
-vlc:::pacman:::
-vlc-plugins-all:::pacman:::
-mpv:::pacman:::
-discord:::pacman:::
-firefox:::pacman:::
-freecad:::pacman:::
-gimp:::pacman:::
-inkscape:::pacman:::
-kate:::pacman:::
-obsidian-bin:::yay:::
-spotify-launcher:::pacman:::
-
 ===Games
 prismlauncher-qt5-bin:::yay:::
 steam:::pacman:::
@@ -146,17 +173,3 @@ virt-manager:::pacman:::/config/vm/setup.sh
 ===Zsh
 zsh:::pacman:::
 starship:::pacman:::/config/zsh/setup.sh
-
-===Audio
-sof-firmware:::pacman:::
-
-===Hyprland
-xorg-wayland:::pacman:::
-wayland-protocols:::pacman:::
-cmake:::pacman:::
-cpio:::pacman:::
-glaze:::pacman:::
-hyperland-protocols:::pacman:::
-meson:::pacman:::
-hyprland:::pacman:::
-kitty:::pacman:::/config/hyprland/setup.sh

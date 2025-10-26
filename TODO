@@ -1,0 +1,15 @@
+vm setup
+zsh setup
+pipewire setup ??? (see arch wiki)
+HYPRLANDDDDDDDDD https://wiki.archlinux.org/title/Hyprland
+power managment suspend and resume hooks
+prismlauncher should have a wrapper for java 17, example:
+    export PATH="/usr/lib/jvm/java-11-openjdk/bin/:$PATH"
+    exec /path/to/application "$@"
+
+test if xdg-desktop-portal-hyprland works
+
+replace hyprland config after first reboot
+install packages cleaner
+https://wiki.archlinux.org/title/Desktop_notifications
+mako scripts
